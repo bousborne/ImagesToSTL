@@ -1,3 +1,17 @@
+---
+title: Images To STL
+emoji: 🌭
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "3.9.1"
+app_file: app.py
+pinned: true
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+
 # InstantMesh: Multi-Image to 3D Mesh
 
 This project provides a tool to convert multiple images into a 3D mesh (STL file) using Python, OpenCV, Open3D, and Gradio. The tool extracts features from the images, matches them to estimate the motion, triangulates the points to generate a point cloud, and finally creates a 3D mesh.
