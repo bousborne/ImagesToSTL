@@ -1,0 +1,7 @@
+numpy==1.21.6
+opencv-python==4.5.5.64
+scikit-image==0.18.3
+open3d==0.18.0
+gradio==3.9.1
+httpx==0.23.0
+httpcore==0.15.0
